@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ЛК Аврора</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Логин</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Вход</string>
+    <string name="error_incorrect_password">Неправильный пароль</string>
+    <string name="error_field_required">Это поле обязательно</string>
+    <string name="error_data_update">Ошибка</string>
+    <string name="status_updating">\???</string>
+    <string name="title_activity_account_info">Account Info</string>
+    <string name="title_counters">Счетчики</string>
+    <string name="title_invoice_details">Квитанция</string>
+    <string name="account_name_label">Account Number:</string>
+    <string name="account_owner_name_label">Account Owner Name:</string>
+    <string name="account_balance_label">К оплате:</string>
+    <string name="counter_name_label">Имя</string>
+    <string name="counter_value_label">Показания</string>
+    <string name="counter_value_history_label">Пред. показания</string>
+    <string name="counter_date_label">Дата</string>
+    <string name="submit">Внести</string>
+    <string name="counter_entry_dialog_label">Внесение показаний</string>
+    <string name="success">Успешно внесены показания</string>
+</resources>

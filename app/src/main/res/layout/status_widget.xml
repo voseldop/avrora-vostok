@@ -1,0 +1,92 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/widget_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="fill"
+        android:alpha="0.3"
+        android:scaleType="fitXY"
+        android:src="@drawable/appwidget_bg"
+        app:srcCompat="@drawable/appwidget_bg" />
+
+    <GridLayout
+        android:id="@+id/widget_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2">
+
+        <ImageView
+            android:id="@+id/widget_icon_status"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center_horizontal"
+            android:maxWidth="36dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_complete"
+            app:srcCompat="@drawable/icon_complete" />
+
+        <TextView
+            android:id="@+id/widget_text_status"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_gravity="fill"
+            android:gravity="right|center_horizontal"
+            android:text="\???"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/widget_icon_balance"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:gravity="center_horizontal|center"
+            android:text="\u20BD"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/widget_update_time"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_gravity="fill"
+            android:gravity="right|center_horizontal"
+            android:text="@string/status_updating"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="12sp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/widget_icon_refresh"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center_horizontal"
+                android:maxWidth="18dp"
+                android:src="@drawable/ic_refresh_black_24dp"
+                app:srcCompat="@drawable/ic_refresh_black_24dp" />
+
+            <ProgressBar
+                android:id="@+id/widget_progress_bar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+    </GridLayout>
+
+
+</FrameLayout>

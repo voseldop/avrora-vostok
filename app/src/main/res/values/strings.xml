@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Avrora Vostok</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Login</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_data_update">Data update failed</string>
+    <string name="status_updating">Updating</string>
+    <string name="title_activity_account_info">Account Info</string>
+    <string name="title_counters">Counters</string>
+    <string name="title_invoice_details">Invoice</string>
+    <string name="account_name_label">Account Number:</string>
+    <string name="account_owner_name_label">Account Owner Name:</string>
+    <string name="account_balance_label">Account balance:</string>
+    <string name="counter_name_label">Name</string>
+    <string name="counter_value_label">Value</string>
+    <string name="counter_value_history_label">Previous Value</string>
+    <string name="counter_date_label">Date</string>
+    <string name="submit">Submit</string>
+    <string name="success">Success!</string>
+    <string name="counter_entry_dialog_label">Enter Counters Data</string>
+</resources>
